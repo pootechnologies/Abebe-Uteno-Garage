@@ -118,11 +118,11 @@ WSGI_APPLICATION = 'main_project.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
-        'NAME': os.environ.get('DB_NAME', 'your_local_db_name'),
-        'USER': os.environ.get('DB_USER', 'your_local_user'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'your_local_password'),
-        'HOST': os.environ.get('DB_HOST', 'localhost'),
-        'PORT': os.environ.get('DB_PORT', '5432'),
+        'NAME': "abebe",
+        'USER': "postgres",
+        'PASSWORD': "Leul1992",
+        'HOST': "localhost",
+        'PORT': "5432",
         # 'OPTIONS': {
         #     'charset': 'utf8mb4',
         #     'init_command': "SET NAMES 'utf8mb4'",
