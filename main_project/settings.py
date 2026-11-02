@@ -13,9 +13,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 from datetime import timedelta
-import pymysql
+# import pymysql
 
-pymysql.install_as_MySQLdb()
+# pymysql.install_as_MySQLdb()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-7m-(oc2d*x-jv)*=!&wqer+m__ru=w736+^my5^*ejc-)f2etw
 DEBUG = False
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ["garaga-api.pootechnologies.tech", "45.93.136.48"]
+ALLOWED_HOSTS = ["abebegarage-api.pootechnologies.tech", "45.93.136.48", "www.abebegarage-api.pootechnologies.tech"]
 
 
 
